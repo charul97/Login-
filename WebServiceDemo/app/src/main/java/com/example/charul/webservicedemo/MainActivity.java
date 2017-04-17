@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(this, "please enter email", Toast.LENGTH_SHORT).show();
             //stopping the function execution further
             return;
-            
+
         }
 
         if(TextUtils.isEmpty(pass)){
